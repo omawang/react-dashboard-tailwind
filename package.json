@@ -3,14 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1"
   },
   "scripts": {
+    "css:watch": "postcss --watch tailwindcss/style.css -o src/assets/css/style.css",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +37,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.0"
   }
 }
