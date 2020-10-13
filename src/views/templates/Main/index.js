@@ -17,7 +17,7 @@ const MainTemplate = (props) => {
       <div className="flex flex-col flex-1 w-full">
         <Header isOpenSidebar={isOpenSidebar} toggleSidebar={toggleSidebar} />
 
-        <main className="h-full overflow-y-auto">
+        <main className="flex flex-col h-full overflow-y-auto">
           {props.children}
         </main>
       </div>
